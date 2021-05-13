@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHY 104</title>
+
+    <style>
+        .header {
+            background-color: rgb(245, 245, 159);
+            height: 75px;
+        }
+
+        .main p {
+            text-align: center;
+
+        }
+
+        .main {
+            background-color: rgb(104, 238, 99);
+            height: 300px;
+            font-size: 20px;
+        }
+
+        .footer {
+            background-color: rgb(245, 245, 159);
+            height: 80px;
+
+        }
+
+        .aside1 {
+            background-color: rgb(171, 253, 242);
+        }
+
+        .aside2 {
+            background-color: rgb(171, 253, 242);
+        }
+
+        .container * {
+            padding: 1px;
+            margin: 20px;
+            border-radius: 20px;
+            text-align: center;
+            font-size: 20px;
+            flex-basis: 100%;
+            flex-grow: 1;
+        }
+
+        .container {
+            display: flex;
+            flex-flow: wrap;
+        }
+
+        @media all and (min-width:800px) {
+            .main {
+                flex: 3;
+                order: 2;
+
+            }
+
+            .aside1 {
+                order: 1;
+            }
+
+            .aside2 {
+                order: 3;
+            }
+
+            .footer {
+                order: 4;
+            }
+
+        }
+
+        @media all and (min-width:600px) {
+            .aside {
+                flex: 1;
+            }
+
+        }
+
+        .h1 {
+            font-family: 'Times New Roman', Times, serif
+        }
+    </style>
+
+</head>
+
+<body bgcolor="404040">
+    <div class="container">
+        <div class="header">
+            <h1 class="h1">TPS 4 STEPs</h1>
+
+        </div>
+
+        <div class="main">
+            <a href="https://www.youtube.com/embed/sARFfNAi5Ls">วิดีโอกฎของเกาส์>>คลิก!!<<</a>
+        </div>
+        <div class="aside1 aside">
+            <h1>การแทรกสอด</h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/1x1AibAW8s0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="aside2 aside">
+            <h1>สนามไฟฟ้าบนเส้นประจุ</h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/wWUZMk7C5AA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="footer">
+            <h1>วิดีโอการสอน phy เบื่องต้น</h1>
+        </div>
+
+
+
+</body>
+
+</html>

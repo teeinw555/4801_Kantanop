@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header {
+            background-color: plum;
+            height: 120px;
+        }
+
+        .main p {
+            text-align: center;
+
+        }
+
+        .main {
+            background-color: lavenderblush;
+            height: 300px;
+            font-size: 20px;
+        }
+
+        .footer {
+            background-color: lightcyan;
+            height: 80px;
+
+        }
+
+        .aside1 {
+            background-color: lavender;
+        }
+
+        .aside2 {
+            background-color: lavender;
+        }
+
+        .container * {
+            padding: 15px;
+            margin: 20px;
+            border-radius: 20px;
+            text-align: center;
+            font-size: 20px;
+            flex-basis: 100%;
+            flex-grow: 1;
+        }
+
+        .container {
+            display: flex;
+            flex-flow: wrap;
+        }
+
+        @media all and (min-width:800px) {
+            .main {
+                flex: 3;
+                order: 2;
+
+            }
+
+            .aside1 {
+                order: 1;
+            }
+
+            .aside2 {
+                order: 3;
+            }
+
+            .footer {
+                order: 4;
+            }
+
+        }
+
+        @media all and (min-width:600px) {
+            .aside {
+                flex: 1;
+            }
+
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>MTH 102</h1>
+        </div>
+
+        <div class="main">
+            <a href="https://kmutt-ac-th.zoom.us/rec/play/oF1r-n1UDW99EwBVcLCEdr1EB-byfw44omENhDAavkZp559H03AelS5aTgnbTH8f8x-C3RxSXz1uGebK.TJ90VQXqj9bgDrXR?continueMode=true&_x_zm_rtaid=qF8-aN81T9Wcu4eig1Lf8g.1620915920432.5f55bad7be352bf98e70797ebeff91aa&_x_zm_rhtaid=209">เวกเตอร์ 1</a>
+        <br>    <a href="https://kmutt-ac-th.zoom.us/rec/play/5tu86fQgHCO5iii56150dRvsIC1jiI11fIJZBgNCpSyWzp-husBgsmb7vzHFGy0UHvEG7tSeHhXClhcZ.Bsb94pQFDcg_AgXk?continueMode=true&_x_zm_rtaid=qF8-aN81T9Wcu4eig1Lf8g.1620915920432.5f55bad7be352bf98e70797ebeff91aa&_x_zm_rhtaid=209">เวกเตอร์ 2</a>
+        <br>    <a href="https://kmutt-ac-th.zoom.us/rec/play/Tdk3gnLBg93r_domCiwfLG5WAnjoOVCfaId3OYqrHGmGtxedMwmy3RoZw_aVfckb0L1-bxZM6L7SM213.Lz3a8DTd2tpZJH4L?continueMode=true&_x_zm_rtaid=qF8-aN81T9Wcu4eig1Lf8g.1620915920432.5f55bad7be352bf98e70797ebeff91aa&_x_zm_rhtaid=209">เวกเตอร์ 3</a>
+
+        </div>
+        <div class="aside1 aside">
+            <a href="https://kmutt-ac-th.zoom.us/rec/play/NbLqvEDvymuBwqYbzEzgAD1qMUZN0ePf795tl-AlBec8WLYP5nDfG8CCo2Y89Z_QqvLm6LJKdU8qd7PU.2QdwXZgQawaUEe1w?continueMode=true&_x_zm_rtaid=qF8-aN81T9Wcu4eig1Lf8g.1620915920432.5f55bad7be352bf98e70797ebeff91aa&_x_zm_rhtaid=209">อนุกรมฟูริเยร์ 1</a>
+            <br>    <a href="https://kmutt-ac-th.zoom.us/rec/play/wDKYV7g63qf1b9yXS8kL9JxiETpXfatm_W0RLtmOclYisB1hNhl-15WukGoVlvfAIRmuVt5ZNegWG54d.VkYcIqJnKSiwXwDg?continueMode=true&_x_zm_rtaid=qF8-aN81T9Wcu4eig1Lf8g.1620915920432.5f55bad7be352bf98e70797ebeff91aa&_x_zm_rhtaid=209">อนุกรมฟูริเยร์ 2</a>
+            <br>    <a href="https://kmutt-ac-th.zoom.us/rec/play/GuL5Wbc56xRc9Mnz7mq6QnIOlEb30bVtLxAsoqm7omb8QzUc-DFwPiD4k2Vmx9WQ7rChTIPUmLuBtrSO.hDHCypwMk8IwviVt?continueMode=true&_x_zm_rtaid=qF8-aN81T9Wcu4eig1Lf8g.1620915920432.5f55bad7be352bf98e70797ebeff91aa&_x_zm_rhtaid=209">อนุกรมฟูริเยร์ 3</a>
+            <br>    <a href="https://kmutt-ac-th.zoom.us/rec/play/tiQAfFAB_qwZ7qzx2naoJ9Tb_rtOC86rIG3Z0eF125YYjD8QhKNyX7Mlf-ounBbEWJY7IoJQ2flupl8.r5XEAZL7ZHTMTIdj?continueMode=true&_x_zm_rtaid=qF8-aN81T9Wcu4eig1Lf8g.1620915920432.5f55bad7be352bf98e70797ebeff91aa&_x_zm_rhtaid=209">อนุกรมฟูริเยร์ 4</a>
+        </div>
+
+        <div class="aside2 aside">
+            <a href="https://kmutt-ac-th.zoom.us/rec/play/GBJzA02NIRGTiptQvP5GBwe4q2qToN9O9JfkCKlLEyVcnrW7ugXoCOb0gSckODpL4Xe89maxQiBwLP2Y.r5dY3YTMT7WHSKTm?continueMode=true&_x_zm_rtaid=qF8-aN81T9Wcu4eig1Lf8g.1620915920432.5f55bad7be352bf98e70797ebeff91aa&_x_zm_rhtaid=209">พิกัดเชิงขั้ว 1</a>
+            <br>    <a href="https://kmutt-ac-th.zoom.us/rec/play/hTd_6Q_N5ZHvVw0BgkAdcBUQ_quBzRXWG1Xa9go0IfhpunvkqYHCzwuwFQpIegElBxjwSuhqytHk1bN4.M-XuNry8kbtW642O?continueMode=true&_x_zm_rtaid=qF8-aN81T9Wcu4eig1Lf8g.1620915920432.5f55bad7be352bf98e70797ebeff91aa&_x_zm_rhtaid=209">พิกัดเชิงขั้ว 2</a>
+            <br>    <a href="https://kmutt-ac-th.zoom.us/rec/play/TWPE5iKn_rKbUNYLx6xNpl7cmgA0W8XBwvd4RGhn3luRyWYa0npcf7PsS5px9LiiIAUcStVX3WE_bFZi.HuXqjMvzFODsJ3W_?continueMode=true&_x_zm_rtaid=qF8-aN81T9Wcu4eig1Lf8g.1620915920432.5f55bad7be352bf98e70797ebeff91aa&_x_zm_rhtaid=209">พิกัดเชิงขั้ว 3</a>
+        </div>
+
+        <div class="footer">
+            <h1>วิดีโอการสอน</h1>
+        </div>
+
+        
+       
+
+</body>
+</html>
